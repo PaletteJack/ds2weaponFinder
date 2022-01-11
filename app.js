@@ -44,7 +44,7 @@ app.route('/')
     });
     setTimeout(function () {
       res.redirect('/result');
-    }, 150);
+    }, 175);
   })
 
 app.route('/result')
@@ -52,6 +52,6 @@ app.route('/result')
     res.render('result', {equipableWeps: equipableWeps});
   })
 
-app.listen(5000, () => {
-  console.log("server listening on port 5000");
+app.listen(process.env.PORT || 5000, () => {
+  console.log("server started");
 });

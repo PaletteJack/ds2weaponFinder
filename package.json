@@ -6,6 +6,9 @@
     "mongodb": "^4.2.2",
     "mongoose": "^6.1.5"
   },
+  "engines": {
+    "node": "v12.22.5"
+  },
   "name": "ds2project",
   "version": "1.0.0",
   "description": "DS2 weapon finder",
