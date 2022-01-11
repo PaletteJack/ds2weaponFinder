@@ -1,0 +1,32 @@
+<%- include('header') -%>
+
+<div class="container" style="padding-top:5rem;">
+  <h4>Enter your characters stats and find all the weapons you can use.</h4>
+
+
+  <div class="container" style="padding-top:5rem;">
+    <form action="/" method="post">
+      <div class="form-contain">
+        <label for="strength"><img src="/pics/strength_icon.png" alt="str-icon"></label>
+        <input type="number" name="strength" placeholder="strength">
+        <br>
+        <label for="dexterity"><img src="/pics/dexterity_icon.png" alt="str-icon"></label>
+        <input type="number" name="dexterity" placeholder="dexterity">
+        <br>
+      </div>
+      <div class="form-contain">
+        <label for="intelligence"><img src="/pics/intelligence_icon.png" alt="str-icon"></label>
+        <input type="number" name="intelligence" placeholder="intelligence">
+        <br>
+        <label for="faith"><img src="/pics/faith_icon.png" alt="str-icon"></label>
+        <input type="number" name="faith" placeholder="faith">
+        <br>
+      </div>
+      <br>
+      <br>
+      <button class="btn btn-outline-danger" type="button submit" name="submit">Submit</button>
+    </form>
+  </div>
+  </div>
+
+<%- include('footer') -%>

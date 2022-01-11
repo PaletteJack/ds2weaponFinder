@@ -1,0 +1,54 @@
+body {
+  background-color: #191919 !important;
+  color: #DDDDDD !important;
+}
+
+.card p {
+  color: black;
+}
+
+.logo {color: black !important; text-decoration: none !important;}
+.logo:hover{text-decoration: none !important;}
+.logo:visited{color: black !important;}
+.logo:active{color: #FF0000 !important;}
+
+a {color: #D9534F !important; text-decoration: none !important;}
+a:hover{text-decoration: none !important;}
+a:visited{color: #D9534F !important;}
+a:active{color: #FF0000 !important;}
+
+pre {
+  white-space: pre-wrap;
+}
+
+.form-contain {
+  display: inline-block;
+}
+
+.wep-contain {
+  text-align: center;
+  width: 19rem;
+  padding: .3125rem;
+  margin: 0.625rem;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.container {
+  text-align: center;
+}
+
+.container {
+  align-content: center;
+}
+
+.footer {
+  min-height: 50px;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+/*---------------flipper---------------*/
