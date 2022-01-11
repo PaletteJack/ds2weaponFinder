@@ -36,8 +36,6 @@ app.route('/')
           let in1 = parseInt(weapon.statReq.intelligence.replace('-','0'));
           let ft1 = parseInt(weapon.statReq.faith.replace('-','0'));
 
-          // console.log(`Comparison for ${weapon.title}: strength -> ${str} vs. ${st1} dexterity ->  ${dex} vs. ${de1} intelligence -> ${int} vs. ${in1} faith -> ${fth} vs. ${ft1}`);
-
           if (str >= st1 && dex >= de1 && int >= in1 && fth >= ft1) {
             equipableWeps.push(weapon);
           }
