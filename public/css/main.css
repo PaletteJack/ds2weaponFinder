@@ -39,16 +39,6 @@ pre {
   border-radius: 10px;
 }
 
-.container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.container {
-  align-content: center;
-}
-
 .footer {
   min-height: 50px;
   position: absolute;

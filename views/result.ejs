@@ -1,13 +1,14 @@
 <%- include('header') -%>
-<h1 style="padding: 0.8125rem 0; text-align: center;">Results | <a href="/">Home</a></h1>
+
 <div class="container">
+  <h1 style="padding: 0.8125rem 0; text-align:center;">Results | <a href="/">Home</a></h1>
   <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 row-cols-sm-1 g-5">
     <% equipableWeps.forEach(function(weapon){ %>
     <div class="col">
       <div class="card" style="width: 20rem; color:black;">
         <div class="card-body">
           <p class="text-muted" style="float:left;"><%=weapon.type%></p>
-          <img src="<%=weapon.link%>" class="" alt="<%=weapon.title%>">
+          <img style="text-align:center;" src="<%=weapon.link%>" class="" alt="<%=weapon.title%>">
           <h5 class="card-title" style="text-align:center;"><%=weapon.title%></h5>
           <div style="display:flex; justify-content:space-around;">
             <div class="form-contain">
