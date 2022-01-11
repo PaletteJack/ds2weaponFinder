@@ -44,7 +44,7 @@ app.route('/')
     });
     setTimeout(function () {
       res.redirect('/result');
-    }, 175);
+    }, 250);
   })
 
 app.route('/result')
