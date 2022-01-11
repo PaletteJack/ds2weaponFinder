@@ -7,6 +7,10 @@ body {
   color: black;
 }
 
+.card {
+  margin: 0 auto;
+}
+
 .logo {color: black !important; text-decoration: none !important;}
 .logo:hover{text-decoration: none !important;}
 .logo:visited{color: black !important;}
@@ -36,7 +40,9 @@ pre {
 }
 
 .container {
-  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .container {
