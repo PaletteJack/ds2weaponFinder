@@ -52,6 +52,6 @@ app.route('/result')
     res.render('result', {equipableWeps: equipableWeps});
   })
 
-app.listen(process.env.PORT || 5000, () => {
-  console.log("server started");
+app.listen(5000, () => {
+  console.log("server started on port 5000");
 });
